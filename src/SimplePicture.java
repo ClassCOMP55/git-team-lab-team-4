@@ -1,5 +1,6 @@
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
+import acm.graphics.GLine;
 import acm.program.GraphicsProgram;
 
 public class SimplePicture extends GraphicsProgram {
@@ -14,6 +15,8 @@ public class SimplePicture extends GraphicsProgram {
 		add(robot);
 		GLabel label = new GLabel("How Team 4 may feel when using github!", 200, 500);
 		add(label);
+		GLine line = new GLine(300, 300, 600, 300);
+		add(line);
 	}
 	
 	public static void main(String[] args) {
