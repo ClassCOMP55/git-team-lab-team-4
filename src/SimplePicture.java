@@ -1,3 +1,4 @@
+//comment 1
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.graphics.GLine;
