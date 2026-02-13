@@ -12,7 +12,7 @@ public class SimplePicture extends GraphicsProgram {
 	public void run() {
 		GImage robot = new GImage("robot.png", 200, 100);
 		add(robot);
-		GLabel label = new GLabel("How I feel when using github!", 200, 400);
+		GLabel label = new GLabel("How Team 4 may feel when using github!", 200, 500);
 		add(label);
 	}
 	
